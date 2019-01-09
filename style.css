@@ -1,0 +1,95 @@
+body {
+	background-color:rgba(54, 51, 43, 1);
+	color:grey;
+	font-family: 
+	font-size:18px;
+	line-height:1.5em;
+	margin:0;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+	padding:8px;
+}
+
+#main-header{
+	background-color: black;
+	color: grey;
+	font-family: Anton, sans-serif;
+	letter-spacing: 3px;
+}
+
+#navbar{
+	background-color:rgba(54, 51, 43, 1);
+	color: grey;
+	text-align: right;
+}
+
+#navbar ul{
+	padding:0;
+}
+
+#navbar li{
+	list-style: none;
+	display: inline;
+}
+
+#navbar a{
+	color:grey;
+	text-decoration: none;
+	padding-left: 18px;
+	font-size: 18px;
+}
+
+#showcase{
+	background-image: url('images/showcase2.jpg');
+	padding:200px;
+	background-position:center;
+}
+
+#main{
+	float:left;
+	width: 60%;
+	padding:0 30px;
+	box-sizing: border-box;
+	margin-top:120px;
+	font-size:22px;
+}
+
+#sidebar-1{
+	background-image:url('images/image1.jpg');
+	float:right;
+	width: 40%;
+	padding:120px;
+	box-sizing: border-box;
+	margin-top: 80px;
+}
+
+#main-2{
+	float:right;
+	width: 60%;
+	padding:0 30px;
+	box-sizing: border-box;
+	margin-top: 120px;
+	font-size: 22px;
+	}
+
+#sidebar-2{
+	background-image:url('images/image2.jpg');
+	background-position: center;
+	float:left;
+	width: 40%;
+	padding:120px;
+	box-sizing: border-box;
+	margin-top: 80px;
+
+}
+
+#main-footer{
+	background-color: black;
+	text-align: center;
+	padding: 2em;
+	margin-top:80px;
+}
